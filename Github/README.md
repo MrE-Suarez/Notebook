@@ -6,10 +6,12 @@
 Makes the folder a Git repository (creates a hidden .git folder that stores history, branches, and settings)
 
 *** Cycle
+
 2. ***Snapshot files:*** git add <folderName> # or use . to include all
 Selects the files to include in the next commit (specific folder or . for all)
 
 *** Cycle
+
 3. ***Save snapshot:***  git commit -m "Reason for commit note" -m "optional description"
 Saves the files and changes locally (not yet uploaded to GitHub)
 
@@ -24,6 +26,7 @@ Links the local repository to the one on GitHub.
 -----End of first time set up -----
 
 *** Cycle
+
 5. ***Upload changes:*** git push origin main
 Pushes commits to GitHub: push can be used to upload the files
 (The branch can be main or master — check yours with git branch.)
